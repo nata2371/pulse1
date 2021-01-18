@@ -1,5 +1,5 @@
 .catalog {
-	padding-bottom: 10px;
+	padding-bottom: 100px;
 	&__tabs {
 		margin-top: 70px;
 		list-style-type: none;
@@ -8,7 +8,6 @@
 		align-items: center;
 		margin-bottom: 0;
 		padding-left: 0;
-
 	}
 	&__tab {
 		width: 220px;
@@ -16,6 +15,7 @@
 		border: 2px solid #d0d0d0;
 		color: #6b6b6b;
 		text-align: center;
+		font-size: 18px;
 		line-height: 48px;
 		text-transform: uppercase;
 		font-weight: 500;
@@ -25,7 +25,7 @@
 		transition: 0.5s all;
 		&:hover {
 			box-shadow: 3px 3px 20px $main-color;
-			border:none;
+			border: none;
 		}
 		div {
 			transform: skewX(25deg);
@@ -33,8 +33,7 @@
 		&-active {
 			color: #fff;
 			background-color: $main-color;
-			border:none;
-
+			border: none;
 		}
 	}
 	&__content {
@@ -45,11 +44,9 @@
 		&-active {
 			display: flex;
 		}
-		
-
 	}
 	&-item {
-		width: 300px;
+		max-width: 300px;
 		min-height: 440px;
 		border: 2px solid #e8e8e8;
 		padding: 20px 20px 26px 20px;
@@ -87,22 +84,18 @@
 			&:hover {
 				color: $main-color;
 				box-shadow: 3px 3px 20px $main-color;
-
 			}
-
 		}
 		hr {
 			background-color: #e8e8e8;
 			margin-top: 19px;
 			margin-bottom: 21px;
 			border-bottom: none;
-
 		}
 		&__footer {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-
 		}
 		&__old-price {
 			color: #555555;
@@ -143,10 +136,9 @@
 			padding-left: 19px;
 			transition: 0.5s all;
 			list-style-type: none;
-
 			&-active {
 				transform: translateX(-100%);
-				margin-left: 0;
+				margin-left: 0px;
 			}
 			li {
 				position: relative;
@@ -162,7 +154,6 @@
 					background-color: $main-color;
 					left: -14px;
 					top: 7px;
-
 				}
 			}
 		}
@@ -182,7 +173,5 @@
 				color: $main-color;
 			}
 		}
-
 	}
-	
 }

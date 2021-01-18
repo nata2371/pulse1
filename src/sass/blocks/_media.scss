@@ -78,6 +78,25 @@
 	.button-submit {
 		font-size: 15px;
 	}
+	.catalog {
+		&__tabs {
+			margin-top: 50px;
+		}
+		&__tab {
+			width: 200px;
+			height: 45px;
+			line-height: 44px;
+			font-size: 16px;
+		}
+		&-item {
+			margin: 0 40px;
+			max-width: 250px;
+			min-height: 400px;
+		}
+	}
+	.reviews {
+		padding-left: 30px;
+	}
 }
 @media (max-width : 767px) {
 	.promo {

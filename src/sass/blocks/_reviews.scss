@@ -1,12 +1,13 @@
 .reviews {
 	padding-top: 83px;
 	padding-bottom: 71px;
-	min-height: 1040px;
+	// min-height: 1040px;
 	hr {
 		margin-top: 50px;
-		width: 940px;
+		height: 1px;
+		// max-width: 940px;
 		background-color: #f6f6f6;
-		border-bottom: none;
+		border: none;
 	}
 
 	&__review {
@@ -21,7 +22,8 @@
 	}
 	&__dscr {
 		margin-left: 60px;
-		width: 650px;
+		// width: 650px;
+		margin-right: 40px;
 
 	}
 	&__header {
